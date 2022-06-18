@@ -32,7 +32,8 @@ Register Number: 212220230019 /*
 
 ``` Python
 # Get the input String
-string = 'Digital Image Processing Techniques'
+string = input('Enter the String : ')
+
 class NodeTree(object):
     def __init__(self, left=None, right=None): 
         self.left = left
@@ -75,7 +76,7 @@ while len(nodes)>1:
     
 # Print the characters and its huffmancode
 huffmanCode=huffman_code_tree(nodes[0][0])
-print(' Char | Huffman code ') 
+print('\n\n Char | Huffman code ') 
 print('----------------------')
 for (char, frequency) in freq:
     print('%-4r|%12s'%(char,huffmanCode[char]))
@@ -85,7 +86,8 @@ for (char, frequency) in freq:
 
 ### Print the characters and its huffmancode
 
-![DIP](https://user-images.githubusercontent.com/75235455/174424158-5f4788ee-500c-4ab5-8445-ab3b5f0f568e.JPG)
+![di](https://user-images.githubusercontent.com/75235455/174433237-5efcc2be-e96b-4dfd-a042-1d82bff3418a.PNG)
+
 
 
 ## Result
